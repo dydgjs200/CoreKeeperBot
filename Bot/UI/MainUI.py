@@ -11,7 +11,7 @@ class MainUI(View):
         # 능력치 부여 방식
         ability_button = Button(label="능력치 부여 방식", style=discord.ButtonStyle.primary)
         ability_button.callback = cbe.click_ability_button  # 콜백 함수 할당
-        self.add_item(ability_button)
+        self.add_item(ability_button)   #
 
         # 등급 부여 방식
         grade_button = Button(label="등급 부여 방식", style=discord.ButtonStyle.primary)
